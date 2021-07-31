@@ -6,12 +6,14 @@ const path = require('path');
 
 const GitLabProjectMergeRequestsApi = require('./project_merge_requests');
 const GitLabProjectMembersApi = require("./project_members");
+const GitLabProjectVariablesApi = require("./project_variables");
 
 class GitLabProjectsApi {
     constructor(api) {
         this._api = api;
         this.merge_requests = new GitLabProjectMergeRequestsApi(api);
         this.members = new GitLabProjectMembersApi(api);
+        this.variables = new  GitLabProjectVariablesApi(api);
     }
 
     list(params) {
