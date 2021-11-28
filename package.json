@@ -9,11 +9,11 @@
   "author": "Samuel Loh Yin Kang <samuel.loh.yk@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samloh84/node-gitlab-client/issues",
+    "url": "https://github.com/samloh84/node-gitlab-api-client/issues",
     "email": "samuel.loh.yk@gmail.com"
   },
   "repository": {
-    "url": "https://github.com/samloh84/node-gitlab-client",
+    "url": "https://github.com/samloh84/node-gitlab-api-client",
     "type": "git"
   },
   "dependencies": {
